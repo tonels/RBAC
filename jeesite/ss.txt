@@ -1,0 +1,184 @@
+
+delete from sys_relation where role_id = ?
+
+INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+
+INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+
+INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+
+INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+
+==> Parameters: 1191326073593569281(Long), 108(Long), 1191324964233715714(Long)
+<==    Updates: 1
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==> Parameters: 1191326073597763585(Long), 109(Long), 1191324964233715714(Long)
+<==    Updates: 1
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==> Parameters: 1191326073606152193(Long), 110(Long), 1191324964233715714(Long)
+<==    Updates: 1
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==> Parameters: 1191326073610346498(Long), 111(Long), 1191324964233715714(Long)
+<==    Updates: 1
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==> Parameters: 1191326073622929409(Long), 112(Long), 1191324964233715714(Long)
+<==    Updates: 1
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==> Parameters: 1191326073622929410(Long), 113(Long), 1191324964233715714(Long)
+<==    Updates: 1
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==> Parameters: 1191326073635512322(Long), 165(Long), 1191324964233715714(Long)
+<==    Updates: 1
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==> Parameters: 1191326073643900930(Long), 166(Long), 1191324964233715714(Long)
+<==    Updates: 1
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==> Parameters: 1191326073652289537(Long), 167(Long), 1191324964233715714(Long)
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+==>  Preparing: INSERT INTO sys_relation ( relation_id, menu_id, role_id ) VALUES ( ?, ?, ? )
+
+SELECT role_id,pid,name,description,sort,version,create_time,update_time,create_user,update_user FROM sys_role WHERE role_id=?
+
+<==    Columns: role_id, pid, name, description, sort, version, create_time, update_time, create_user, update_user
+<==        Row: 1191324964233715714, 1, 普通用户, common, 11, null, 2019-11-04 20:03:00, 2019-11-04 20:03:44, 1, 1
+
+SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 105, system, 0, [0],, 系统管理, layui-icon layui-icon-set, #, 20, 1, Y, null, ENABLE, null, 1, BASE_SYSTEM, null, 2019-03-29 16:32:27, null, 1
+
+SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 106, mgr, system, [0],[system],, 用户管理, , /mgr, 10, 2, Y, null, ENABLE, null, 0, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+
+SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 107, mgr_add, mgr, [0],[system],[mgr],, 添加用户, null, /mgr/add, 1, 3, N, null, ENABLE, null, 0, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+
+SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 108, mgr_edit, mgr, [0],[system],[mgr],, 修改用户, null, /mgr/edit, 2, 3, N, null, ENABLE, null, 0, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+
+SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 109, mgr_delete, mgr, [0],[system],[mgr],, 删除用户, null, /mgr/delete, 3, 3, N, null, ENABLE, null, 0, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+
+SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 110, mgr_reset, mgr, [0],[system],[mgr],, 重置密码, null, /mgr/reset, 4, 3, N, null, ENABLE, null, 0, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 111, mgr_freeze, mgr, [0],[system],[mgr],, 冻结用户, null, /mgr/freeze, 5, 3, N, null, ENABLE, null, 0, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 112, mgr_unfreeze, mgr, [0],[system],[mgr],, 解除冻结用户, null, /mgr/unfreeze, 6, 3, N, null, ENABLE, null, 0, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 113, mgr_setRole, mgr, [0],[system],[mgr],, 分配角色, null, /mgr/setRole, 7, 3, N, null, ENABLE, null, 0, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 165, to_assign_role, mgr, [0],[system],[mgr],, 分配角色跳转, , /mgr/role_assign, 8, 3, N, null, ENABLE, null, null, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 166, to_user_edit, mgr, [0],[system],[mgr],, 编辑用户跳转, , /mgr/user_edit, 9, 3, N, null, ENABLE, null, null, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 167, mgr_list, mgr, [0],[system],[mgr],, 用户列表, , /mgr/list, 10, 3, N, null, ENABLE, null, null, BASE_SYSTEM, null, 2019-06-30 13:48:07, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 171, dev_tools, 0, [0],, 开发管理, layui-icon layui-icon-code-circle, #, 30, 1, Y, null, ENABLE, null, null, BASE_SYSTEM, null, 2019-05-11 13:40:27, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 149, api_mgr, dev_tools, [0],[dev_tools],, 接口文档, fa-leaf, /swagger-ui.html, 30, 2, Y, null, ENABLE, null, null, BASE_SYSTEM, null, 2019-06-15 18:13:00, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 172, dashboard, 0, [0],, 主控面板, layui-icon layui-icon-home, #, 10, 1, Y, null, ENABLE, null, null, BASE_SYSTEM, null, 2019-04-08 22:48:15, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 145, sys_message, dashboard, [0],[dashboard],, 消息通知, layui-icon layui-icon-tips, /system/notice, 30, 2, Y, null, ENABLE, null, null, BASE_SYSTEM, null, 2019-04-08 22:49:39, null, 1
+==>  Preparing: SELECT menu_id,code,pcode,pcodes,name,icon,url,sort,levels,menu_flag,description,status,new_page_flag,open_flag,system_type,create_time,update_time,create_user,update_user FROM sys_menu WHERE menu_id=?
+<==    Columns: menu_id, code, pcode, pcodes, name, icon, url, sort, levels, menu_flag, description, status, new_page_flag, open_flag, system_type, create_time, update_time, create_user, update_user
+<==        Row: 1111545968697860098, console, dashboard, [0],[dashboard],, 项目介绍, , /system/console, 10, 2, Y, null, ENABLE, null, null, BASE_SYSTEM, 2019-03-29 16:29:45, 2019-04-09 20:57:08, 1, 1
+==>  Preparing: INSERT INTO sys_operation_log ( operation_log_id, log_type, log_name, user_id, class_name, method, create_time, succeed, message ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ? )
+
+select role_id AS "roleId", pid AS "pid", name AS "name", description AS "description", sort AS "sort", version AS "version", create_time AS "createTime", update_time AS "updateTime", create_user AS "createUser"
+
+update_user AS "updateUser" from sys_role order by sort asc
+
+SELECT COUNT(1) FROM sys_role
+
+select role_id AS "roleId", pid AS "pid", name AS "name", description AS "description", sort AS "sort", version AS "version", create_time AS "createTime", update_time AS "updateTime", create_user AS "createUser"
+
+update_user AS "updateUser" from sys_role order by sort asc LIMIT ?,?
+
+<==    Columns: roleId, pid, name, description, sort, version, createTime, updateTime, createUser, updateUser
+<==        Row: 1, 0, 超级管理员, administrator, 1, 1, null, null, null, null
+<==        Row: 5, 1, 第三方登录, oauth_role, 2, null, null, 2019-06-11 13:59:40, null, 1
+<==        Row: 1191324964233715714, 1, 普通用户, common, 11, null, 2019-11-04 20:03:00, 2019-11-04 20:03:44, 1, 1
+
+SELECT role_id,pid,name,description,sort,version,create_time,update_time,create_user,update_user FROM sys_role WHERE role_id=?
+<==    Columns: role_id, pid, name, description, sort, version, create_time, update_time, create_user, update_user
+<==        Row: 1, 0, 超级管理员, administrator, 1, 1, null, null, null, null
+<==      Total: 1
+
+SELECT role_id,pid,name,description,sort,version,create_time,update_time,create_user,update_user FROM sys_role WHERE role_id=?
+
+==> Parameters: 1(Long)
+<==    Columns: role_id, pid, name, description, sort, version, create_time, update_time, create_user, update_user
+<==        Row: 1, 0, 超级管理员, administrator, 1, 1, null, null, null, null
+
+
+
+<==      Total: 1
+
+
+CREATE TABLE `sys_menu` (
+  `menu_id` bigint(20) NOT NULL COMMENT '主键id',
+  `code` varchar(255) DEFAULT NULL COMMENT '菜单编号',
+  `pcode` varchar(255) DEFAULT NULL COMMENT '菜单父编号',
+  `pcodes` varchar(255) DEFAULT NULL COMMENT '当前菜单的所有父菜单编号',
+  `name` varchar(255) DEFAULT NULL COMMENT '菜单名称',
+  `icon` varchar(255) DEFAULT NULL COMMENT '菜单图标',
+  `url` varchar(255) DEFAULT NULL COMMENT 'url地址',
+  `sort` int(65) DEFAULT NULL COMMENT '菜单排序号',
+  `levels` int(65) DEFAULT NULL COMMENT '菜单层级',
+  `menu_flag` varchar(32) DEFAULT NULL COMMENT '是否是菜单(字典)',
+  `description` varchar(255) DEFAULT NULL COMMENT '备注',
+  `status` varchar(32) DEFAULT 'ENABLE' COMMENT '菜单状态(字典)',
+  `new_page_flag` varchar(32) DEFAULT NULL COMMENT '是否打开新页面的标识(字典)',
+  `open_flag` varchar(32) DEFAULT NULL COMMENT '是否打开(字典)',
+  `system_type` varchar(100) DEFAULT NULL COMMENT '系统分类(字典)',
+  `create_time` datetime DEFAULT NULL COMMENT '创建时间',
+  `update_time` datetime DEFAULT NULL COMMENT '修改时间',
+  `create_user` bigint(20) DEFAULT NULL COMMENT '创建人',
+  `update_user` bigint(20) DEFAULT NULL COMMENT '修改人',
+  PRIMARY KEY (`menu_id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='菜单表';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
