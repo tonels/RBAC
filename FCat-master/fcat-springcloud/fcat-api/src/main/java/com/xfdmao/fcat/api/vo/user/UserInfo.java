@@ -29,7 +29,9 @@ public class UserInfo implements UserDetails {
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         List<GrantedAuthority> authorityList = new ArrayList<>();
-        roleList.forEach(role ->authorityList.add(new SimpleGrantedAuthority(role)));
+        for (String role : roleList) {
+            authorityList.add(new SimpleGrantedAuthority(role));
+        }
         return authorityList;
     }
 
@@ -53,4 +55,14 @@ public class UserInfo implements UserDetails {
         return true;
     }
 
+
+    @Override
+    public String getPassword() {
+        return null;
+    }
+
+    @Override
+    public String getUsername() {
+        return null;
+    }
 }
