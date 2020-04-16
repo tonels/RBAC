@@ -1,0 +1,13 @@
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\manage\impl\QiniuFileManage.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\service\impl\FileServiceImpl.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\manage\FileManageFactory.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\dao\FileDao.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\util\Base64DecodeMultipartFile.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\manage\impl\LocalFileManage.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\manage\impl\MinioFileManage.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\service\FileService.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\manage\impl\AliFileManage.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\manage\FileManage.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\manage\impl\TencentFileManage.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\entity\File.java
+D:\菜单控制\skadmin\skadmin-master\skadmin-file\src\main\java\com\dxj\file\controller\FileController.java

@@ -1,0 +1,10 @@
+com\dxj\log\mapper\LogErrorMapper.class
+com\dxj\log\domain\entity\LoginLog.class
+com\dxj\log\mapper\LogSmallMapperImpl.class
+com\dxj\log\mapper\LogSmallMapper.class
+com\dxj\log\annotation\LoginLog.class
+com\dxj\log\annotation\Log.class
+com\dxj\log\domain\dto\LogSmallDTO.class
+com\dxj\log\domain\dto\LogErrorDTO.class
+com\dxj\log\mapper\LogErrorMapperImpl.class
+com\dxj\log\domain\entity\Log.class

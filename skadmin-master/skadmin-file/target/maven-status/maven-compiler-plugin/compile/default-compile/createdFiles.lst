@@ -1,0 +1,14 @@
+com\dxj\file\manage\impl\TencentFileManage.class
+com\dxj\file\controller\FileController.class
+com\dxj\file\service\impl\FileServiceImpl.class
+com\dxj\file\dao\FileDao.class
+com\dxj\file\util\Base64DecodeMultipartFile.class
+com\dxj\file\manage\FileManage.class
+com\dxj\file\manage\impl\LocalFileManage.class
+com\dxj\file\manage\impl\QiniuFileManage.class
+com\dxj\file\service\impl\FileServiceImpl$1.class
+com\dxj\file\manage\impl\AliFileManage.class
+com\dxj\file\manage\FileManageFactory.class
+com\dxj\file\service\FileService.class
+com\dxj\file\entity\File.class
+com\dxj\file\manage\impl\MinioFileManage.class

@@ -1,0 +1,10 @@
+com\dxj\generator\service\GeneratorService.class
+com\dxj\generator\domain\entity\GenConfig.class
+com\dxj\generator\domain\vo\TableInfo.class
+com\dxj\generator\repository\GenConfigRepository.class
+com\dxj\generator\controller\GenConfigController.class
+com\dxj\generator\controller\GeneratorController.class
+com\dxj\generator\util\GenUtil.class
+com\dxj\generator\domain\vo\ColumnInfo.class
+com\dxj\generator\service\GenConfigService.class
+com\dxj\generator\util\ColUtil.class

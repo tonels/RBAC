@@ -1,0 +1,6 @@
+com\dxj\log\service\LogService.class
+com\dxj\log\service\LoginLogService.class
+com\dxj\log\repository\LoginLogRepository.class
+com\dxj\log\repository\LogRepository.class
+com\dxj\log\controller\LogController.class
+com\dxj\log\aspect\DataScopeAspect.class
