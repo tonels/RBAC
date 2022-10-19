@@ -12,7 +12,7 @@
     <artifactId>fcat-common</artifactId>
     <properties>
         <mapper.version>3.3.6</mapper.version>
-        <jackson.version>2.8.7</jackson.version>
+        <jackson.version>2.13.4.1</jackson.version>
         <pagehelper.version>4.1.1</pagehelper.version>
 
 
